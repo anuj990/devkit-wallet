@@ -57,7 +57,10 @@ dependencies {
     implementation("com.google.protobuf:protobuf-javalite:3.18.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("androidx.core:core-splashscreen:1.0.1")
-
+// Nav3 Library
+    implementation("androidx.navigation3:navigation3-runtime:1.0.0")
+    implementation("androidx.navigation3:navigation3-ui:1.0.0")
+    implementation("androidx.navigation3:navigation3-compose:1.0.0")
     // Jetpack Compose
     // Adding the Bill of Materials synchronizes dependencies in the androidx.compose namespace
     // You can remove the library version in your dependency declarations
